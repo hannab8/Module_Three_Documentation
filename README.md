@@ -35,7 +35,9 @@ The takeaway from this is that good documentation is an ongoing effort, and it's
       - The third line: "Answers:" using H2 (header two)
       - The fifth line: Start an ordered List (1.)
 
-4.  Copy and paste the code below into your repository. Use the proper markup for code in your Readme. (Hint: ```code```). Review and add comments to the code that tells the reader what it does.
+4.  Copy and paste the code below into your repository (You can choose between Oython or C++).
+      - Use the proper markup for code in your Readme. (Hint: ```code```).
+      - Review and add comments to the code that tells the reader what it does.
 
 PYTHON:
 
@@ -78,13 +80,18 @@ int main() {
       - Comment the code (preferrably before pasting it into your Readme).
       - See example below for how it should look.
 
-6.  Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Completed Task Three"
+6.  And now you are done! Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Completed Task Three"
 ```
 **Example for Question 5**
 <img width="1071" alt="Screen Shot 2023-08-04 at 5 24 50 PM" src="https://github.com/hannab8/Module_Three_Documentation/assets/83167499/56b38ed2-bbb2-4200-ba7e-3076f0e9d163">
 
+You have now completed your third assignment! 🚀
+
+Just as a reminder, please notify a team lead when you have completed this task and provide your GitHub username. The next one will then be made available to you.
 
 ## References
+
+Here you will find some additional information on Documentation and Commenting code. If you have any suggestions on what should be added, please let a team lead know!
 
 ### C++
 1. [Style Guide | Google](https://google.github.io/styleguide/cppguide.html#Comments)
