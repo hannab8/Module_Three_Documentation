@@ -29,61 +29,49 @@ The takeaway from this is that good documentation is an ongoing effort, and it's
 
 2.  Go to your repository: <YourName>_Training_Modules
 
-3.  Edit your Readme file and format it using the following:
+3.  Create a new branch called: Module3
+
+4.  Edit your Readme file in the Module3 branch and format it using the following:
       - Please use a 5 line gap after the previous assignment
       - The first line: "<YourName> Module Three" using H1 (header one)
       - The third line: "Answers:" using H2 (header two)
       - The fifth line: Start an ordered List (1.)
 
-4.  Copy and paste the code below into your repository (You can choose between Oython or C++).
-      - Use the proper markup for code in your Readme. (Hint: ```code```).
-      - Review and add comments to the code that tells the reader what it does.
+5.  Answer the following questions by typing your short answers into the ordered list you created:
+      - How do you add a single-line comment in Python?
+      - How do you add a single-line comment in C++?
+      - How do you add a multi-line comment in Python?
+      - How do you add a multi-line comment in C++?
 
-PYTHON:
+6. Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Task Three"
 
-if __name__ == "__main__":
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    num3 = float(input("Enter the third number: "))
-    num4 = float(input("Enter the fourth number: "))
+7. Open one of the files labeled 'Mod2_python.py' or 'Mod2_c.cpp' (One is a python file, the other is C++):
+      - Save the file in a safe space on your desktop/workspace.
+      - Review the file and add comments to the code that tells the reader what it does.
+      - Save the document as "Module3-Q7" and stage, commit, and push it to the Module3 branch in the repository.
 
-    average = (num1 + num2 + num3 + num4) / 4
-
-    print(f"The average of {num1}, {num2}, {num3}, and {num4} is: {average:.2f}")
-
-C++:
-
-#include <iostream>
-
-int main() {
-    float num1, num2, num3, num4;
-
-    std::cout << "Enter the first number: ";
-    std::cin >> num1;
-    std::cout << "Enter the second number: ";
-    std::cin >> num2;
-    std::cout << "Enter the third number: ";
-    std::cin >> num3;
-    std::cout << "Enter the fourth number: ";
-    std::cin >> num4;
-
-    float average = (num1 + num2 + num3 + num4) / 4;
-
-    std::cout << "The average of " << num1 << ", " << num2 << ", " << num3 << ", and " << num4 << " is: " << std::fixed << std::setprecision(2) << average << std::endl;
-
-    return 0;
-}
-
-5.  Create a simple program in python or C++ where you add the sum of two numbers and determine if the sum is odd or even.
+8.  Create a simple program in Python or C++ where you add the sum of two numbers and determine if the sum is odd or even.
+      - Name your file: Mod3_Q8
       - Remember to use appropriate naming conventions for your functions and variables.
-      - You can type the code in your own IDE and paste it into your Readme.
-      - Comment the code (preferrably before pasting it into your Readme).
-      - See example below for how it should look.
+      - Add comments to the code.
+      - Stage, commit, and push your file to the Module3 branch in your repository.
 
-6.  And now you are done! Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Completed Task Three"
+9.  Go back to your Readme file, and add the documentation of your Mod3_Q8 file. (See example below)
+
+10. Commit your changes by clicking the 'Commit changes...' button and set the commit message to "Completed Task Three"
+
+11.  Go back to the code tab once you've committed your changes, and click the green button labeled 'Compare & pull request'
+
+12.  Fill in the pull request:
+    - Title: Task three
+    - Comment: [ Please write a one-two sentence summary of what you did for this assignment ]
+    - Assignees: [ Choose the team lead member who is overseeing modules ]
+
 ```
-**Example for Question 5**
-<img width="1071" alt="Screen Shot 2023-08-04 at 5 24 50 PM" src="https://github.com/hannab8/Module_Three_Documentation/assets/83167499/56b38ed2-bbb2-4200-ba7e-3076f0e9d163">
+
+**Example for Question 9**
+<img width="835" alt="Screen Shot 2023-08-11 at 10 00 45 AM" src="https://github.com/hannab8/Module_Three_Documentation/assets/83167499/a1f35f67-44bb-465c-9650-1b1cb795814e">
+
 
 You have now completed your third assignment! 🚀
 
